@@ -1,19 +1,9 @@
-# 插件唯一标识符 (必填)[reference:9]
 name: "astrbot_plugin_qqgroup_notice"
-# 插件作者 (必填)[reference:10]
-author: "陌筏" 
-# 插件简介 (必填)[reference:11]
-desc: "QQ群成员入群/退群通知插件"
-# 插件版本 (必填)[reference:12]
+author: "陌筏"
+desc: "群成员入群/退群通知插件（仅NapCat）"
 version: "1.0.0"
-# 插件仓库地址 (可选)[reference:13]
 repo: "https://github.com/New-WeiLai/astrbot_plugin_qqgroup_notice"
-# 插件展示名 (可选)[reference:14]
-display_name: "QQ群通知插件"
-# 插件市场卡片短描述 (可选)[reference:15]
-short_desc: "自动通知Q群成员入群和退群"
-# 声明支持的AstrBot版本范围 (可选)[reference:16]
+license: "AGPL-3.0"
 astrbot_version: ">=4.0.0"
-# 声明支持的平台适配器 (可选)[reference:17]
 support_platforms:
   - aiocqhttp

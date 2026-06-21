@@ -18,7 +18,7 @@
 进入 AstrBot 插件目录（默认 `AstrBot/data/plugins/`），执行：
 
 ```bash
-git clone https://github.com/New-Weilai/astrbot_plugin_QQgroup_notice.git
+git clone https://github.com/New-WeiLai/astrbot_plugin_qqgroup_notice.git
 ```
 
 方法二：手动创建
@@ -41,8 +41,8 @@ git clone https://github.com/New-Weilai/astrbot_plugin_QQgroup_notice.git
 
 配置项 类型 默认值 说明
 显示用户昵称 开关 关闭 开启后，通知中会显示用户昵称（需 NapCat HTTP 服务正常运行）
-入群欢迎模板 文本框 🎉 欢迎新成员 {nickname}！({way}) 自定义入群消息，支持变量
-退群通知模板 文本框 👋 成员 {nickname} 已{reason} 自定义退群消息，支持变量
+入群欢迎模板 文本框 🎉 欢迎新成员 {nickname}！({way}) 自定义入群消息，支持变量（见下方）
+退群通知模板 文本框 👋 成员 {nickname} 已{reason} 自定义退群消息，支持变量（见下方）
 NapCat HTTP 服务地址 文本框 127.0.0.1 用于获取用户昵称（一般为 127.0.0.1 或容器内服务名）
 NapCat HTTP 服务端口 数字 3000 NapCat HTTP 服务端口（默认 3000）
 
@@ -139,5 +139,5 @@ A：目前不支持按群开关，如需此功能可提交 Issue 请求添加。
 
 🙏 致谢
 
-· AstrBot – 强大的机器人框架
-· NapCat – 优雅的 QQ机器人框架 实现
+· AstrBot – 强大的多平台机器人框架
+· NapCat – 优雅的QQ机器人框架实现
